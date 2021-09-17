@@ -688,19 +688,6 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-        <script>
-  let buttons = document.querySelectorAll('a');
-  buttons.forEach((button) => {
-    button.addEventListener('click', (e) => {
-      e.preventDefault();
-      let target = e.currentTarget.getAttribute('href');
-      
-      document.querySelector(target).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
-</script>
-<script src="smoothscroll.js"></script>
+        
     </body>
 </html>

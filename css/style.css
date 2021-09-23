@@ -20,6 +20,13 @@ a {
     color: #454545;
     transition: .3s;
 }
+a.white {
+    color: white;
+    margin: 0 1%;
+}
+i.fa.fa-envelope {
+    margin-right: 2px;
+}
 
 a:hover,
 a:active,
@@ -73,9 +80,8 @@ a:focus {
 .top-bar {
     position: relative;
     height: 35px;
-    background: #343148;
+    background: #999;
 }
-
 .top-bar .top-bar-left {
     display: flex;
     align-items: center;
@@ -234,7 +240,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #343148 !important;
+        background: #999 !important;
     }
     
     .navbar a.nav-link {
@@ -248,7 +254,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #343148 !important;
+        background: #999 !important;
     }
     
     .navbar .navbar-brand span {
@@ -527,7 +533,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #F7CAC9;
-    background: #343148;
+    background: #999;
     border-radius: 0;
     transition: .3s;
 }
@@ -566,7 +572,7 @@ a:focus {
 
 .service .service-item:hover,
 .service .service-item.active {
-    background: #343148;
+    background: #999;
     color: #ffffff;
 }
 
@@ -680,7 +686,7 @@ a:focus {
 
 .class #class-filter li:hover,
 .class #class-filter li.filter-active {
-    background: #343148;
+    background: #999;
     color: #F7CAC9;
 }
 
@@ -883,7 +889,7 @@ a:focus {
 }
 
 .price .price-item.featured-item .price-header {
-    background: #343148;
+    background: #999;
     color: #F7CAC9;
 }
 
@@ -976,7 +982,7 @@ a:focus {
 .price .price-action a:hover,
 .price .price-item.featured-item .price-action a {
     color: #F7CAC9;
-    background: #343148;
+    background: #999;
 }
 
 .price .price-item.featured-item .price-action a:hover {
@@ -1893,12 +1899,12 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #000000;
+    background: linear-gradient(#999, #6c757d);
 }
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
+    background: linear-gradient(#999, #6c757d), url(../img/footer-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
